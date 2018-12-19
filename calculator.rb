@@ -1,17 +1,19 @@
 # CALCULATOR
-puts "Enter number, operation, number"
+puts "Enter number"
 val1 = gets.to_i #first value into int
+puts "Enter operation"
 op = gets.chomp #gets operation 
+puts "Enter number"
 val2 = gets.to_i #second value into int
 
 if op == "+" #if addition 
-puts "#{val1} - #{val2} = #{val1 - val2}"
+puts "Answer to #{val1} - #{val2} is #{val1 - val2}"
 elsif op == "-" #if subtraction 
-puts "#{val1} - #{val2} = #{val1 - val2}"
+puts "Answer to #{val1} - #{val2} is #{val1 - val2}"
 elsif op == "/" #if division 
-  puts "#{val1} / #{val2} = #{val1 / val2}"
+  puts "Answer to #{val1} / #{val2} is #{val1 / val2}"
 elsif op == "*" #if multiplication 
-  puts "#{val1} * #{val2} = #{val1 * val2}"
+  puts "Answer to #{val1} * #{val2} is #{val1 * val2}"
 else puts "error"
 end 
 
