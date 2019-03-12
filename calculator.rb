@@ -6,17 +6,6 @@ op = gets.chomp #gets operation
 puts "Enter number"
 val2 = gets.to_i #second value into int
 
-# if op == "+" #if addition 
-# puts "Answer to #{val1} - #{val2} is #{val1 - val2}"
-# elsif op == "-" #if subtraction 
-# puts "Answer to #{val1} - #{val2} is #{val1 - val2}"
-# elsif op == "/" #if division 
-#   puts "Answer to #{val1} / #{val2} is #{val1 / val2}"
-# elsif op == "*" #if multiplication 
-#   puts "Answer to #{val1} * #{val2} is #{val1 * val2}"
-# else puts "error"
-# end 
-
 def addition(val1, val2)
     return val1+val2
 end
