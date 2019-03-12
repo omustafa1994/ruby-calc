@@ -4,8 +4,7 @@
 This homework was assigned to test my understanding of Ruby. After having only learnt a few days of Ruby code I was able to build a calculator with basic functions; add, subtract, multiple and divide. 
 
 ### Languages used
-* JavaScript
-* HTML
+* Ruby
 
 ### How to download
 1. Clone the Git repo
